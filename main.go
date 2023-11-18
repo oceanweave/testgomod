@@ -15,6 +15,7 @@ import (
 	// 所以此处，为该 import 进行重命名，标识，以便容易理解
 
 	// 2-4 最终推荐，还是保持包名和目录名一致，这样没有歧义，便于理解和排错
+	"fmt"
 	"github.com/oceanweave/testgomod/pkg/demo1"
 )
 
@@ -22,4 +23,13 @@ func main() {
 	// 上面 import 引用正确的路径后，就可以正常调用执行
 	// 注意更改包名后，可能此处调用会报错，因此项目还没有刷新过来，此时关闭并重新打开该项目，就可以变为正常了
 	demo1.Hello1()
+}
+
+func SayHello() {
+	demo1.Hello1()
+}
+
+// 小写字母开头，按理来说，无法被外部调用
+func sayHello2() {
+	fmt.Println("this sayHello2 from testgomod Repo")
 }
