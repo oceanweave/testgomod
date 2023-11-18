@@ -1,4 +1,5 @@
-package demo1
+// 更改包名
+package demox
 
 import "fmt"
 
