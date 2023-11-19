@@ -5,6 +5,6 @@ import "fmt"
 
 // v1 版本
 func Hello1() {
-	fmt.Println("tools go package v1 bug-fix ")
+	fmt.Println("hello1 go package v1 bug-fix ")
 	fmt.Println("this is Hello-1 from demo1")
 }

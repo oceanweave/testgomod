@@ -15,6 +15,7 @@ import "fmt"
 
 // v2 发生巨大重构
 func SayHi() {
+	fmt.Println("---> tools go package v2 bug-fix ")
 	fmt.Println("has big change in this tools package, totallly different from v1 ")
 	fmt.Println("this sayHello from testgomod Repo‘s tools go package")
 }
