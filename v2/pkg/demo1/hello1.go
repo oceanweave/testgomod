@@ -3,8 +3,8 @@ package demo1
 
 import "fmt"
 
-// v1 版本
+// v2 发生巨大重构
 func Hello1() {
-	fmt.Println("tools go package v1 bug-fix ")
+	fmt.Println("has big change in this demo1 package, totallly different from v1 ")
 	fmt.Println("this is Hello-1 from demo1")
 }

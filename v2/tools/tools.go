@@ -14,7 +14,7 @@ import "fmt"
 //  3. 发布到 github 上 git push origin v1.0.1
 
 // v2 发生巨大重构
-func SayHello() {
-	fmt.Println("tools go package v1 bug-fix ")
+func SayHi() {
+	fmt.Println("has big change in this tools package, totallly different from v1 ")
 	fmt.Println("this sayHello from testgomod Repo‘s tools go package")
 }

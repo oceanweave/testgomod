@@ -53,7 +53,3 @@
     - git tag -a v1.0.1 0c74f12d -m "Release v1.0.1"
     - git push origin v1.0.1
 
-- go get 有三种拉取方法
-    - 版本号形式拉取： 		go get github.com/oceanweave/hello/demo1@v1.0.1
-    - 分支形式拉取：  		go get github.com/oceanweave/hello/demo1@git-tag-test  会拉取分支最新的 commit
-    - commit-id形式拉取：	go get github.com/oceanweave/hello/demo1@0c74f12d
